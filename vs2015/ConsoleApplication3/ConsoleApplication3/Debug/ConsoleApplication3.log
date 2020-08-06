@@ -1,0 +1,4 @@
+﻿  源.cpp
+e:\files\新建文件夹\c\vs2015\consoleapplication3\consoleapplication3\源.cpp(14): warning C4244: “-=”: 从“double”转换到“int”，可能丢失数据
+  ConsoleApplication3.vcxproj -> E:\files\新建文件夹\C\vs2015\ConsoleApplication3\Debug\ConsoleApplication3.exe
+  ConsoleApplication3.vcxproj -> E:\files\新建文件夹\C\vs2015\ConsoleApplication3\Debug\ConsoleApplication3.pdb (Full PDB)

@@ -1,0 +1,2 @@
+﻿源1.obj : error LNK2005: _main 已经在 源.obj 中定义
+E:\files\新建文件夹\C\vs2015\ConsoleApplication5\Debug\ConsoleApplication5.exe : fatal error LNK1169: 找到一个或多个多重定义的符号
