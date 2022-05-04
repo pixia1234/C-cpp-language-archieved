@@ -1,0 +1,404 @@
+﻿  源.cpp
+e:\files\新建文件夹\c\vs2015\consoleapplication1\consoleapplication1\源.cpp(24): error C2679: 二进制“<<”: 没有找到接受“std::string”类型的右操作数的运算符(或没有可接受的转换)
+  f:\software\vc\include\ostream(495): note: 可能是“std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_streambuf<char,std::char_traits<char>> *)”
+  f:\software\vc\include\ostream(475): note: 或  “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(const void *)”
+  f:\software\vc\include\ostream(455): note: 或  “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(long double)”
+  f:\software\vc\include\ostream(435): note: 或  “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(double)”
+  f:\software\vc\include\ostream(415): note: 或  “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(float)”
+  f:\software\vc\include\ostream(395): note: 或  “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned __int64)”
+  f:\software\vc\include\ostream(375): note: 或  “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(__int64)”
+  f:\software\vc\include\ostream(355): note: 或  “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned long)”
+  f:\software\vc\include\ostream(335): note: 或  “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(long)”
+  f:\software\vc\include\ostream(315): note: 或  “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned int)”
+  f:\software\vc\include\ostream(290): note: 或  “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(int)”
+  f:\software\vc\include\ostream(270): note: 或  “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned short)”
+  f:\software\vc\include\ostream(236): note: 或  “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(short)”
+  f:\software\vc\include\ostream(216): note: 或  “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(bool)”
+  f:\software\vc\include\ostream(209): note: 或  “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::ios_base &(__cdecl *)(std::ios_base &))”
+  f:\software\vc\include\ostream(202): note: 或  “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_ios<char,std::char_traits<char>> &(__cdecl *)(std::basic_ios<char,std::char_traits<char>> &))”
+  f:\software\vc\include\ostream(196): note: 或  “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_ostream<char,std::char_traits<char>> &(__cdecl *)(std::basic_ostream<char,std::char_traits<char>> &))”
+  f:\software\vc\include\ostream(1019): note: 或  “std::basic_ostream<char,std::char_traits<char>> &std::operator <<<char,std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,const std::error_code &)”
+  f:\software\vc\include\ostream(981): note: 或  “std::basic_ostream<char,std::char_traits<char>> &std::operator <<<char,std::char_traits<char>,std::string>(std::basic_ostream<char,std::char_traits<char>> &&,const _Ty &)”
+          with
+          [
+              _Ty=std::string
+          ]
+  f:\software\vc\include\ostream(971): note: 或  “std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,unsigned char)”
+  f:\software\vc\include\ostream(964): note: 或  “std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,const unsigned char *)”
+  f:\software\vc\include\ostream(957): note: 或  “std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,signed char)”
+  f:\software\vc\include\ostream(950): note: 或  “std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,const signed char *)”
+  f:\software\vc\include\ostream(824): note: 或  “std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,char)”
+  f:\software\vc\include\ostream(777): note: 或  “std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,const char *)”
+  f:\software\vc\include\ostream(739): note: 或  “std::basic_ostream<char,std::char_traits<char>> &std::operator <<<char,std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,char)”
+  f:\software\vc\include\ostream(692): note: 或  “std::basic_ostream<char,std::char_traits<char>> &std::operator <<<char,std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,const char *)”
+  e:\files\新建文件夹\c\vs2015\consoleapplication1\consoleapplication1\源.cpp(24): note: 尝试匹配参数列表“(std::basic_ostream<char,std::char_traits<char>>, std::string)”时
+e:\files\新建文件夹\c\vs2015\consoleapplication1\consoleapplication1\源.cpp(40): error C2679: 二进制“>>”: 没有找到接受“std::string”类型的右操作数的运算符(或没有可接受的转换)
+  f:\software\vc\include\istream(482): note: 可能是“std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(std::basic_streambuf<char,std::char_traits<char>> *)”
+  f:\software\vc\include\istream(463): note: 或  “std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(void *&)”
+  f:\software\vc\include\istream(445): note: 或  “std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(long double &)”
+  f:\software\vc\include\istream(427): note: 或  “std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(double &)”
+  f:\software\vc\include\istream(408): note: 或  “std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(float &)”
+  f:\software\vc\include\istream(390): note: 或  “std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(unsigned __int64 &)”
+  f:\software\vc\include\istream(371): note: 或  “std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(__int64 &)”
+  f:\software\vc\include\istream(352): note: 或  “std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(unsigned long &)”
+  f:\software\vc\include\istream(334): note: 或  “std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(long &)”
+  f:\software\vc\include\istream(316): note: 或  “std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(unsigned int &)”
+  f:\software\vc\include\istream(290): note: 或  “std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(int &)”
+  f:\software\vc\include\istream(271): note: 或  “std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(unsigned short &)”
+  f:\software\vc\include\istream(236): note: 或  “std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(short &)”
+  f:\software\vc\include\istream(217): note: 或  “std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(bool &)”
+  f:\software\vc\include\istream(210): note: 或  “std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(std::ios_base &(__cdecl *)(std::ios_base &))”
+  f:\software\vc\include\istream(203): note: 或  “std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(std::basic_ios<char,std::char_traits<char>> &(__cdecl *)(std::basic_ios<char,std::char_traits<char>> &))”
+  f:\software\vc\include\istream(197): note: 或  “std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(std::basic_istream<char,std::char_traits<char>> &(__cdecl *)(std::basic_istream<char,std::char_traits<char>> &))”
+  f:\software\vc\include\istream(1104): note: 或  “std::basic_istream<char,std::char_traits<char>> &std::operator >><char,std::char_traits<char>,std::string>(std::basic_istream<char,std::char_traits<char>> &&,_Ty &)”
+          with
+          [
+              _Ty=std::string
+          ]
+  f:\software\vc\include\istream(1094): note: 或  “std::basic_istream<char,std::char_traits<char>> &std::operator >><std::char_traits<char>>(std::basic_istream<char,std::char_traits<char>> &,unsigned char &)”
+  f:\software\vc\include\istream(1087): note: 或  “std::basic_istream<char,std::char_traits<char>> &std::operator >><std::char_traits<char>>(std::basic_istream<char,std::char_traits<char>> &,unsigned char *)”
+  f:\software\vc\include\istream(1080): note: 或  “std::basic_istream<char,std::char_traits<char>> &std::operator >><std::char_traits<char>>(std::basic_istream<char,std::char_traits<char>> &,signed char &)”
+  f:\software\vc\include\istream(1073): note: 或  “std::basic_istream<char,std::char_traits<char>> &std::operator >><std::char_traits<char>>(std::basic_istream<char,std::char_traits<char>> &,signed char *)”
+  e:\files\新建文件夹\c\vs2015\consoleapplication1\consoleapplication1\源.cpp(40): note: 尝试匹配参数列表“(std::istream, std::string)”时
+e:\files\新建文件夹\c\vs2015\consoleapplication1\consoleapplication1\源.cpp(46): error C2679: 二进制“>>”: 没有找到接受“std::string”类型的右操作数的运算符(或没有可接受的转换)
+  f:\software\vc\include\istream(482): note: 可能是“std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(std::basic_streambuf<char,std::char_traits<char>> *)”
+  f:\software\vc\include\istream(463): note: 或  “std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(void *&)”
+  f:\software\vc\include\istream(445): note: 或  “std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(long double &)”
+  f:\software\vc\include\istream(427): note: 或  “std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(double &)”
+  f:\software\vc\include\istream(408): note: 或  “std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(float &)”
+  f:\software\vc\include\istream(390): note: 或  “std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(unsigned __int64 &)”
+  f:\software\vc\include\istream(371): note: 或  “std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(__int64 &)”
+  f:\software\vc\include\istream(352): note: 或  “std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(unsigned long &)”
+  f:\software\vc\include\istream(334): note: 或  “std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(long &)”
+  f:\software\vc\include\istream(316): note: 或  “std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(unsigned int &)”
+  f:\software\vc\include\istream(290): note: 或  “std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(int &)”
+  f:\software\vc\include\istream(271): note: 或  “std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(unsigned short &)”
+  f:\software\vc\include\istream(236): note: 或  “std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(short &)”
+  f:\software\vc\include\istream(217): note: 或  “std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(bool &)”
+  f:\software\vc\include\istream(210): note: 或  “std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(std::ios_base &(__cdecl *)(std::ios_base &))”
+  f:\software\vc\include\istream(203): note: 或  “std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(std::basic_ios<char,std::char_traits<char>> &(__cdecl *)(std::basic_ios<char,std::char_traits<char>> &))”
+  f:\software\vc\include\istream(197): note: 或  “std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(std::basic_istream<char,std::char_traits<char>> &(__cdecl *)(std::basic_istream<char,std::char_traits<char>> &))”
+  f:\software\vc\include\istream(1104): note: 或  “std::basic_istream<char,std::char_traits<char>> &std::operator >><char,std::char_traits<char>,std::string>(std::basic_istream<char,std::char_traits<char>> &&,_Ty &)”
+          with
+          [
+              _Ty=std::string
+          ]
+  f:\software\vc\include\istream(1094): note: 或  “std::basic_istream<char,std::char_traits<char>> &std::operator >><std::char_traits<char>>(std::basic_istream<char,std::char_traits<char>> &,unsigned char &)”
+  f:\software\vc\include\istream(1087): note: 或  “std::basic_istream<char,std::char_traits<char>> &std::operator >><std::char_traits<char>>(std::basic_istream<char,std::char_traits<char>> &,unsigned char *)”
+  f:\software\vc\include\istream(1080): note: 或  “std::basic_istream<char,std::char_traits<char>> &std::operator >><std::char_traits<char>>(std::basic_istream<char,std::char_traits<char>> &,signed char &)”
+  f:\software\vc\include\istream(1073): note: 或  “std::basic_istream<char,std::char_traits<char>> &std::operator >><std::char_traits<char>>(std::basic_istream<char,std::char_traits<char>> &,signed char *)”
+  e:\files\新建文件夹\c\vs2015\consoleapplication1\consoleapplication1\源.cpp(46): note: 尝试匹配参数列表“(std::istream, std::string)”时
+e:\files\新建文件夹\c\vs2015\consoleapplication1\consoleapplication1\源.cpp(47): error C2679: 二进制“<<”: 没有找到接受“std::string”类型的右操作数的运算符(或没有可接受的转换)
+  f:\software\vc\include\ostream(495): note: 可能是“std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_streambuf<char,std::char_traits<char>> *)”
+  f:\software\vc\include\ostream(475): note: 或  “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(const void *)”
+  f:\software\vc\include\ostream(455): note: 或  “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(long double)”
+  f:\software\vc\include\ostream(435): note: 或  “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(double)”
+  f:\software\vc\include\ostream(415): note: 或  “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(float)”
+  f:\software\vc\include\ostream(395): note: 或  “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned __int64)”
+  f:\software\vc\include\ostream(375): note: 或  “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(__int64)”
+  f:\software\vc\include\ostream(355): note: 或  “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned long)”
+  f:\software\vc\include\ostream(335): note: 或  “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(long)”
+  f:\software\vc\include\ostream(315): note: 或  “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned int)”
+  f:\software\vc\include\ostream(290): note: 或  “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(int)”
+  f:\software\vc\include\ostream(270): note: 或  “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned short)”
+  f:\software\vc\include\ostream(236): note: 或  “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(short)”
+  f:\software\vc\include\ostream(216): note: 或  “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(bool)”
+  f:\software\vc\include\ostream(209): note: 或  “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::ios_base &(__cdecl *)(std::ios_base &))”
+  f:\software\vc\include\ostream(202): note: 或  “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_ios<char,std::char_traits<char>> &(__cdecl *)(std::basic_ios<char,std::char_traits<char>> &))”
+  f:\software\vc\include\ostream(196): note: 或  “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_ostream<char,std::char_traits<char>> &(__cdecl *)(std::basic_ostream<char,std::char_traits<char>> &))”
+  f:\software\vc\include\ostream(1019): note: 或  “std::basic_ostream<char,std::char_traits<char>> &std::operator <<<char,std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,const std::error_code &)”
+  f:\software\vc\include\ostream(981): note: 或  “std::basic_ostream<char,std::char_traits<char>> &std::operator <<<char,std::char_traits<char>,std::string>(std::basic_ostream<char,std::char_traits<char>> &&,const _Ty &)”
+          with
+          [
+              _Ty=std::string
+          ]
+  f:\software\vc\include\ostream(971): note: 或  “std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,unsigned char)”
+  f:\software\vc\include\ostream(964): note: 或  “std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,const unsigned char *)”
+  f:\software\vc\include\ostream(957): note: 或  “std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,signed char)”
+  f:\software\vc\include\ostream(950): note: 或  “std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,const signed char *)”
+  f:\software\vc\include\ostream(824): note: 或  “std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,char)”
+  f:\software\vc\include\ostream(777): note: 或  “std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,const char *)”
+  f:\software\vc\include\ostream(739): note: 或  “std::basic_ostream<char,std::char_traits<char>> &std::operator <<<char,std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,char)”
+  f:\software\vc\include\ostream(692): note: 或  “std::basic_ostream<char,std::char_traits<char>> &std::operator <<<char,std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,const char *)”
+  e:\files\新建文件夹\c\vs2015\consoleapplication1\consoleapplication1\源.cpp(47): note: 尝试匹配参数列表“(std::basic_ostream<char,std::char_traits<char>>, std::string)”时
+e:\files\新建文件夹\c\vs2015\consoleapplication1\consoleapplication1\源.cpp(81): warning C4244: “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+e:\files\新建文件夹\c\vs2015\consoleapplication1\consoleapplication1\源.cpp(83): error C2679: 二进制“<<”: 没有找到接受“std::string”类型的右操作数的运算符(或没有可接受的转换)
+  f:\software\vc\include\ostream(495): note: 可能是“std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_streambuf<char,std::char_traits<char>> *)”
+  f:\software\vc\include\ostream(475): note: 或  “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(const void *)”
+  f:\software\vc\include\ostream(455): note: 或  “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(long double)”
+  f:\software\vc\include\ostream(435): note: 或  “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(double)”
+  f:\software\vc\include\ostream(415): note: 或  “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(float)”
+  f:\software\vc\include\ostream(395): note: 或  “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned __int64)”
+  f:\software\vc\include\ostream(375): note: 或  “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(__int64)”
+  f:\software\vc\include\ostream(355): note: 或  “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned long)”
+  f:\software\vc\include\ostream(335): note: 或  “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(long)”
+  f:\software\vc\include\ostream(315): note: 或  “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned int)”
+  f:\software\vc\include\ostream(290): note: 或  “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(int)”
+  f:\software\vc\include\ostream(270): note: 或  “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned short)”
+  f:\software\vc\include\ostream(236): note: 或  “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(short)”
+  f:\software\vc\include\ostream(216): note: 或  “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(bool)”
+  f:\software\vc\include\ostream(209): note: 或  “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::ios_base &(__cdecl *)(std::ios_base &))”
+  f:\software\vc\include\ostream(202): note: 或  “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_ios<char,std::char_traits<char>> &(__cdecl *)(std::basic_ios<char,std::char_traits<char>> &))”
+  f:\software\vc\include\ostream(196): note: 或  “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_ostream<char,std::char_traits<char>> &(__cdecl *)(std::basic_ostream<char,std::char_traits<char>> &))”
+  f:\software\vc\include\ostream(1019): note: 或  “std::basic_ostream<char,std::char_traits<char>> &std::operator <<<char,std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,const std::error_code &)”
+  f:\software\vc\include\ostream(981): note: 或  “std::basic_ostream<char,std::char_traits<char>> &std::operator <<<char,std::char_traits<char>,std::string>(std::basic_ostream<char,std::char_traits<char>> &&,const _Ty &)”
+          with
+          [
+              _Ty=std::string
+          ]
+  f:\software\vc\include\ostream(971): note: 或  “std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,unsigned char)”
+  f:\software\vc\include\ostream(964): note: 或  “std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,const unsigned char *)”
+  f:\software\vc\include\ostream(957): note: 或  “std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,signed char)”
+  f:\software\vc\include\ostream(950): note: 或  “std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,const signed char *)”
+  f:\software\vc\include\ostream(824): note: 或  “std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,char)”
+  f:\software\vc\include\ostream(777): note: 或  “std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,const char *)”
+  f:\software\vc\include\ostream(739): note: 或  “std::basic_ostream<char,std::char_traits<char>> &std::operator <<<char,std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,char)”
+  f:\software\vc\include\ostream(692): note: 或  “std::basic_ostream<char,std::char_traits<char>> &std::operator <<<char,std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,const char *)”
+  e:\files\新建文件夹\c\vs2015\consoleapplication1\consoleapplication1\源.cpp(83): note: 尝试匹配参数列表“(std::basic_ostream<char,std::char_traits<char>>, std::string)”时
+e:\files\新建文件夹\c\vs2015\consoleapplication1\consoleapplication1\源.cpp(85): error C2679: 二进制“>>”: 没有找到接受“std::string”类型的右操作数的运算符(或没有可接受的转换)
+  f:\software\vc\include\istream(482): note: 可能是“std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(std::basic_streambuf<char,std::char_traits<char>> *)”
+  f:\software\vc\include\istream(463): note: 或  “std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(void *&)”
+  f:\software\vc\include\istream(445): note: 或  “std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(long double &)”
+  f:\software\vc\include\istream(427): note: 或  “std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(double &)”
+  f:\software\vc\include\istream(408): note: 或  “std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(float &)”
+  f:\software\vc\include\istream(390): note: 或  “std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(unsigned __int64 &)”
+  f:\software\vc\include\istream(371): note: 或  “std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(__int64 &)”
+  f:\software\vc\include\istream(352): note: 或  “std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(unsigned long &)”
+  f:\software\vc\include\istream(334): note: 或  “std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(long &)”
+  f:\software\vc\include\istream(316): note: 或  “std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(unsigned int &)”
+  f:\software\vc\include\istream(290): note: 或  “std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(int &)”
+  f:\software\vc\include\istream(271): note: 或  “std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(unsigned short &)”
+  f:\software\vc\include\istream(236): note: 或  “std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(short &)”
+  f:\software\vc\include\istream(217): note: 或  “std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(bool &)”
+  f:\software\vc\include\istream(210): note: 或  “std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(std::ios_base &(__cdecl *)(std::ios_base &))”
+  f:\software\vc\include\istream(203): note: 或  “std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(std::basic_ios<char,std::char_traits<char>> &(__cdecl *)(std::basic_ios<char,std::char_traits<char>> &))”
+  f:\software\vc\include\istream(197): note: 或  “std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(std::basic_istream<char,std::char_traits<char>> &(__cdecl *)(std::basic_istream<char,std::char_traits<char>> &))”
+  f:\software\vc\include\istream(1104): note: 或  “std::basic_istream<char,std::char_traits<char>> &std::operator >><char,std::char_traits<char>,std::string>(std::basic_istream<char,std::char_traits<char>> &&,_Ty &)”
+          with
+          [
+              _Ty=std::string
+          ]
+  f:\software\vc\include\istream(1094): note: 或  “std::basic_istream<char,std::char_traits<char>> &std::operator >><std::char_traits<char>>(std::basic_istream<char,std::char_traits<char>> &,unsigned char &)”
+  f:\software\vc\include\istream(1087): note: 或  “std::basic_istream<char,std::char_traits<char>> &std::operator >><std::char_traits<char>>(std::basic_istream<char,std::char_traits<char>> &,unsigned char *)”
+  f:\software\vc\include\istream(1080): note: 或  “std::basic_istream<char,std::char_traits<char>> &std::operator >><std::char_traits<char>>(std::basic_istream<char,std::char_traits<char>> &,signed char &)”
+  f:\software\vc\include\istream(1073): note: 或  “std::basic_istream<char,std::char_traits<char>> &std::operator >><std::char_traits<char>>(std::basic_istream<char,std::char_traits<char>> &,signed char *)”
+  e:\files\新建文件夹\c\vs2015\consoleapplication1\consoleapplication1\源.cpp(85): note: 尝试匹配参数列表“(std::istream, std::string)”时
+e:\files\新建文件夹\c\vs2015\consoleapplication1\consoleapplication1\源.cpp(105): error C2679: 二进制“<<”: 没有找到接受“std::string”类型的右操作数的运算符(或没有可接受的转换)
+  f:\software\vc\include\ostream(495): note: 可能是“std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_streambuf<char,std::char_traits<char>> *)”
+  f:\software\vc\include\ostream(475): note: 或  “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(const void *)”
+  f:\software\vc\include\ostream(455): note: 或  “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(long double)”
+  f:\software\vc\include\ostream(435): note: 或  “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(double)”
+  f:\software\vc\include\ostream(415): note: 或  “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(float)”
+  f:\software\vc\include\ostream(395): note: 或  “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned __int64)”
+  f:\software\vc\include\ostream(375): note: 或  “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(__int64)”
+  f:\software\vc\include\ostream(355): note: 或  “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned long)”
+  f:\software\vc\include\ostream(335): note: 或  “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(long)”
+  f:\software\vc\include\ostream(315): note: 或  “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned int)”
+  f:\software\vc\include\ostream(290): note: 或  “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(int)”
+  f:\software\vc\include\ostream(270): note: 或  “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned short)”
+  f:\software\vc\include\ostream(236): note: 或  “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(short)”
+  f:\software\vc\include\ostream(216): note: 或  “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(bool)”
+  f:\software\vc\include\ostream(209): note: 或  “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::ios_base &(__cdecl *)(std::ios_base &))”
+  f:\software\vc\include\ostream(202): note: 或  “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_ios<char,std::char_traits<char>> &(__cdecl *)(std::basic_ios<char,std::char_traits<char>> &))”
+  f:\software\vc\include\ostream(196): note: 或  “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_ostream<char,std::char_traits<char>> &(__cdecl *)(std::basic_ostream<char,std::char_traits<char>> &))”
+  f:\software\vc\include\ostream(1019): note: 或  “std::basic_ostream<char,std::char_traits<char>> &std::operator <<<char,std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,const std::error_code &)”
+  f:\software\vc\include\ostream(981): note: 或  “std::basic_ostream<char,std::char_traits<char>> &std::operator <<<char,std::char_traits<char>,std::string>(std::basic_ostream<char,std::char_traits<char>> &&,const _Ty &)”
+          with
+          [
+              _Ty=std::string
+          ]
+  f:\software\vc\include\ostream(971): note: 或  “std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,unsigned char)”
+  f:\software\vc\include\ostream(964): note: 或  “std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,const unsigned char *)”
+  f:\software\vc\include\ostream(957): note: 或  “std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,signed char)”
+  f:\software\vc\include\ostream(950): note: 或  “std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,const signed char *)”
+  f:\software\vc\include\ostream(824): note: 或  “std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,char)”
+  f:\software\vc\include\ostream(777): note: 或  “std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,const char *)”
+  f:\software\vc\include\ostream(739): note: 或  “std::basic_ostream<char,std::char_traits<char>> &std::operator <<<char,std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,char)”
+  f:\software\vc\include\ostream(692): note: 或  “std::basic_ostream<char,std::char_traits<char>> &std::operator <<<char,std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,const char *)”
+  e:\files\新建文件夹\c\vs2015\consoleapplication1\consoleapplication1\源.cpp(105): note: 尝试匹配参数列表“(std::basic_ostream<char,std::char_traits<char>>, std::string)”时
+e:\files\新建文件夹\c\vs2015\consoleapplication1\consoleapplication1\源.cpp(123): warning C4244: “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+e:\files\新建文件夹\c\vs2015\consoleapplication1\consoleapplication1\源.cpp(125): error C2679: 二进制“<<”: 没有找到接受“std::string”类型的右操作数的运算符(或没有可接受的转换)
+  f:\software\vc\include\ostream(495): note: 可能是“std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_streambuf<char,std::char_traits<char>> *)”
+  f:\software\vc\include\ostream(475): note: 或  “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(const void *)”
+  f:\software\vc\include\ostream(455): note: 或  “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(long double)”
+  f:\software\vc\include\ostream(435): note: 或  “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(double)”
+  f:\software\vc\include\ostream(415): note: 或  “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(float)”
+  f:\software\vc\include\ostream(395): note: 或  “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned __int64)”
+  f:\software\vc\include\ostream(375): note: 或  “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(__int64)”
+  f:\software\vc\include\ostream(355): note: 或  “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned long)”
+  f:\software\vc\include\ostream(335): note: 或  “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(long)”
+  f:\software\vc\include\ostream(315): note: 或  “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned int)”
+  f:\software\vc\include\ostream(290): note: 或  “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(int)”
+  f:\software\vc\include\ostream(270): note: 或  “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned short)”
+  f:\software\vc\include\ostream(236): note: 或  “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(short)”
+  f:\software\vc\include\ostream(216): note: 或  “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(bool)”
+  f:\software\vc\include\ostream(209): note: 或  “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::ios_base &(__cdecl *)(std::ios_base &))”
+  f:\software\vc\include\ostream(202): note: 或  “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_ios<char,std::char_traits<char>> &(__cdecl *)(std::basic_ios<char,std::char_traits<char>> &))”
+  f:\software\vc\include\ostream(196): note: 或  “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_ostream<char,std::char_traits<char>> &(__cdecl *)(std::basic_ostream<char,std::char_traits<char>> &))”
+  f:\software\vc\include\ostream(1019): note: 或  “std::basic_ostream<char,std::char_traits<char>> &std::operator <<<char,std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,const std::error_code &)”
+  f:\software\vc\include\ostream(981): note: 或  “std::basic_ostream<char,std::char_traits<char>> &std::operator <<<char,std::char_traits<char>,std::string>(std::basic_ostream<char,std::char_traits<char>> &&,const _Ty &)”
+          with
+          [
+              _Ty=std::string
+          ]
+  f:\software\vc\include\ostream(971): note: 或  “std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,unsigned char)”
+  f:\software\vc\include\ostream(964): note: 或  “std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,const unsigned char *)”
+  f:\software\vc\include\ostream(957): note: 或  “std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,signed char)”
+  f:\software\vc\include\ostream(950): note: 或  “std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,const signed char *)”
+  f:\software\vc\include\ostream(824): note: 或  “std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,char)”
+  f:\software\vc\include\ostream(777): note: 或  “std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,const char *)”
+  f:\software\vc\include\ostream(739): note: 或  “std::basic_ostream<char,std::char_traits<char>> &std::operator <<<char,std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,char)”
+  f:\software\vc\include\ostream(692): note: 或  “std::basic_ostream<char,std::char_traits<char>> &std::operator <<<char,std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,const char *)”
+  e:\files\新建文件夹\c\vs2015\consoleapplication1\consoleapplication1\源.cpp(125): note: 尝试匹配参数列表“(std::basic_ostream<char,std::char_traits<char>>, std::string)”时
+e:\files\新建文件夹\c\vs2015\consoleapplication1\consoleapplication1\源.cpp(127): error C2679: 二进制“<<”: 没有找到接受“std::string”类型的右操作数的运算符(或没有可接受的转换)
+  f:\software\vc\include\ostream(495): note: 可能是“std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_streambuf<char,std::char_traits<char>> *)”
+  f:\software\vc\include\ostream(475): note: 或  “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(const void *)”
+  f:\software\vc\include\ostream(455): note: 或  “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(long double)”
+  f:\software\vc\include\ostream(435): note: 或  “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(double)”
+  f:\software\vc\include\ostream(415): note: 或  “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(float)”
+  f:\software\vc\include\ostream(395): note: 或  “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned __int64)”
+  f:\software\vc\include\ostream(375): note: 或  “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(__int64)”
+  f:\software\vc\include\ostream(355): note: 或  “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned long)”
+  f:\software\vc\include\ostream(335): note: 或  “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(long)”
+  f:\software\vc\include\ostream(315): note: 或  “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned int)”
+  f:\software\vc\include\ostream(290): note: 或  “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(int)”
+  f:\software\vc\include\ostream(270): note: 或  “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned short)”
+  f:\software\vc\include\ostream(236): note: 或  “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(short)”
+  f:\software\vc\include\ostream(216): note: 或  “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(bool)”
+  f:\software\vc\include\ostream(209): note: 或  “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::ios_base &(__cdecl *)(std::ios_base &))”
+  f:\software\vc\include\ostream(202): note: 或  “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_ios<char,std::char_traits<char>> &(__cdecl *)(std::basic_ios<char,std::char_traits<char>> &))”
+  f:\software\vc\include\ostream(196): note: 或  “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_ostream<char,std::char_traits<char>> &(__cdecl *)(std::basic_ostream<char,std::char_traits<char>> &))”
+  f:\software\vc\include\ostream(1019): note: 或  “std::basic_ostream<char,std::char_traits<char>> &std::operator <<<char,std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,const std::error_code &)”
+  f:\software\vc\include\ostream(981): note: 或  “std::basic_ostream<char,std::char_traits<char>> &std::operator <<<char,std::char_traits<char>,std::string>(std::basic_ostream<char,std::char_traits<char>> &&,const _Ty &)”
+          with
+          [
+              _Ty=std::string
+          ]
+  f:\software\vc\include\ostream(971): note: 或  “std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,unsigned char)”
+  f:\software\vc\include\ostream(964): note: 或  “std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,const unsigned char *)”
+  f:\software\vc\include\ostream(957): note: 或  “std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,signed char)”
+  f:\software\vc\include\ostream(950): note: 或  “std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,const signed char *)”
+  f:\software\vc\include\ostream(824): note: 或  “std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,char)”
+  f:\software\vc\include\ostream(777): note: 或  “std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,const char *)”
+  f:\software\vc\include\ostream(739): note: 或  “std::basic_ostream<char,std::char_traits<char>> &std::operator <<<char,std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,char)”
+  f:\software\vc\include\ostream(692): note: 或  “std::basic_ostream<char,std::char_traits<char>> &std::operator <<<char,std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,const char *)”
+  e:\files\新建文件夹\c\vs2015\consoleapplication1\consoleapplication1\源.cpp(127): note: 尝试匹配参数列表“(std::basic_ostream<char,std::char_traits<char>>, std::string)”时
+e:\files\新建文件夹\c\vs2015\consoleapplication1\consoleapplication1\源.cpp(145): error C2664: “BOOL SetConsoleTitleW(LPCWSTR)”: 无法将参数 1 从“const char [17]”转换为“LPCWSTR”
+  e:\files\新建文件夹\c\vs2015\consoleapplication1\consoleapplication1\源.cpp(145): note: 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+e:\files\新建文件夹\c\vs2015\consoleapplication1\consoleapplication1\源.cpp(171): error C2679: 二进制“>>”: 没有找到接受“std::string”类型的右操作数的运算符(或没有可接受的转换)
+  f:\software\vc\include\istream(482): note: 可能是“std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(std::basic_streambuf<char,std::char_traits<char>> *)”
+  f:\software\vc\include\istream(463): note: 或  “std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(void *&)”
+  f:\software\vc\include\istream(445): note: 或  “std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(long double &)”
+  f:\software\vc\include\istream(427): note: 或  “std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(double &)”
+  f:\software\vc\include\istream(408): note: 或  “std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(float &)”
+  f:\software\vc\include\istream(390): note: 或  “std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(unsigned __int64 &)”
+  f:\software\vc\include\istream(371): note: 或  “std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(__int64 &)”
+  f:\software\vc\include\istream(352): note: 或  “std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(unsigned long &)”
+  f:\software\vc\include\istream(334): note: 或  “std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(long &)”
+  f:\software\vc\include\istream(316): note: 或  “std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(unsigned int &)”
+  f:\software\vc\include\istream(290): note: 或  “std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(int &)”
+  f:\software\vc\include\istream(271): note: 或  “std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(unsigned short &)”
+  f:\software\vc\include\istream(236): note: 或  “std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(short &)”
+  f:\software\vc\include\istream(217): note: 或  “std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(bool &)”
+  f:\software\vc\include\istream(210): note: 或  “std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(std::ios_base &(__cdecl *)(std::ios_base &))”
+  f:\software\vc\include\istream(203): note: 或  “std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(std::basic_ios<char,std::char_traits<char>> &(__cdecl *)(std::basic_ios<char,std::char_traits<char>> &))”
+  f:\software\vc\include\istream(197): note: 或  “std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(std::basic_istream<char,std::char_traits<char>> &(__cdecl *)(std::basic_istream<char,std::char_traits<char>> &))”
+  f:\software\vc\include\istream(1104): note: 或  “std::basic_istream<char,std::char_traits<char>> &std::operator >><char,std::char_traits<char>,std::string>(std::basic_istream<char,std::char_traits<char>> &&,_Ty &)”
+          with
+          [
+              _Ty=std::string
+          ]
+  f:\software\vc\include\istream(1094): note: 或  “std::basic_istream<char,std::char_traits<char>> &std::operator >><std::char_traits<char>>(std::basic_istream<char,std::char_traits<char>> &,unsigned char &)”
+  f:\software\vc\include\istream(1087): note: 或  “std::basic_istream<char,std::char_traits<char>> &std::operator >><std::char_traits<char>>(std::basic_istream<char,std::char_traits<char>> &,unsigned char *)”
+  f:\software\vc\include\istream(1080): note: 或  “std::basic_istream<char,std::char_traits<char>> &std::operator >><std::char_traits<char>>(std::basic_istream<char,std::char_traits<char>> &,signed char &)”
+  f:\software\vc\include\istream(1073): note: 或  “std::basic_istream<char,std::char_traits<char>> &std::operator >><std::char_traits<char>>(std::basic_istream<char,std::char_traits<char>> &,signed char *)”
+  e:\files\新建文件夹\c\vs2015\consoleapplication1\consoleapplication1\源.cpp(171): note: 尝试匹配参数列表“(std::ifstream, std::string)”时
+e:\files\新建文件夹\c\vs2015\consoleapplication1\consoleapplication1\源.cpp(176): error C2679: 二进制“<<”: 没有找到接受“std::string”类型的右操作数的运算符(或没有可接受的转换)
+  f:\software\vc\include\ostream(495): note: 可能是“std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_streambuf<char,std::char_traits<char>> *)”
+  f:\software\vc\include\ostream(475): note: 或  “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(const void *)”
+  f:\software\vc\include\ostream(455): note: 或  “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(long double)”
+  f:\software\vc\include\ostream(435): note: 或  “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(double)”
+  f:\software\vc\include\ostream(415): note: 或  “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(float)”
+  f:\software\vc\include\ostream(395): note: 或  “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned __int64)”
+  f:\software\vc\include\ostream(375): note: 或  “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(__int64)”
+  f:\software\vc\include\ostream(355): note: 或  “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned long)”
+  f:\software\vc\include\ostream(335): note: 或  “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(long)”
+  f:\software\vc\include\ostream(315): note: 或  “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned int)”
+  f:\software\vc\include\ostream(290): note: 或  “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(int)”
+  f:\software\vc\include\ostream(270): note: 或  “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned short)”
+  f:\software\vc\include\ostream(236): note: 或  “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(short)”
+  f:\software\vc\include\ostream(216): note: 或  “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(bool)”
+  f:\software\vc\include\ostream(209): note: 或  “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::ios_base &(__cdecl *)(std::ios_base &))”
+  f:\software\vc\include\ostream(202): note: 或  “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_ios<char,std::char_traits<char>> &(__cdecl *)(std::basic_ios<char,std::char_traits<char>> &))”
+  f:\software\vc\include\ostream(196): note: 或  “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_ostream<char,std::char_traits<char>> &(__cdecl *)(std::basic_ostream<char,std::char_traits<char>> &))”
+  f:\software\vc\include\ostream(1019): note: 或  “std::basic_ostream<char,std::char_traits<char>> &std::operator <<<char,std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,const std::error_code &)”
+  f:\software\vc\include\ostream(981): note: 或  “std::basic_ostream<char,std::char_traits<char>> &std::operator <<<char,std::char_traits<char>,std::string>(std::basic_ostream<char,std::char_traits<char>> &&,const _Ty &)”
+          with
+          [
+              _Ty=std::string
+          ]
+  f:\software\vc\include\ostream(971): note: 或  “std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,unsigned char)”
+  f:\software\vc\include\ostream(964): note: 或  “std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,const unsigned char *)”
+  f:\software\vc\include\ostream(957): note: 或  “std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,signed char)”
+  f:\software\vc\include\ostream(950): note: 或  “std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,const signed char *)”
+  f:\software\vc\include\ostream(824): note: 或  “std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,char)”
+  f:\software\vc\include\ostream(777): note: 或  “std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,const char *)”
+  f:\software\vc\include\ostream(739): note: 或  “std::basic_ostream<char,std::char_traits<char>> &std::operator <<<char,std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,char)”
+  f:\software\vc\include\ostream(692): note: 或  “std::basic_ostream<char,std::char_traits<char>> &std::operator <<<char,std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,const char *)”
+  e:\files\新建文件夹\c\vs2015\consoleapplication1\consoleapplication1\源.cpp(176): note: 尝试匹配参数列表“(std::ostream, std::string)”时
+e:\files\新建文件夹\c\vs2015\consoleapplication1\consoleapplication1\源.cpp(180): error C2679: 二进制“>>”: 没有找到接受“std::string”类型的右操作数的运算符(或没有可接受的转换)
+  f:\software\vc\include\istream(482): note: 可能是“std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(std::basic_streambuf<char,std::char_traits<char>> *)”
+  f:\software\vc\include\istream(463): note: 或  “std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(void *&)”
+  f:\software\vc\include\istream(445): note: 或  “std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(long double &)”
+  f:\software\vc\include\istream(427): note: 或  “std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(double &)”
+  f:\software\vc\include\istream(408): note: 或  “std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(float &)”
+  f:\software\vc\include\istream(390): note: 或  “std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(unsigned __int64 &)”
+  f:\software\vc\include\istream(371): note: 或  “std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(__int64 &)”
+  f:\software\vc\include\istream(352): note: 或  “std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(unsigned long &)”
+  f:\software\vc\include\istream(334): note: 或  “std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(long &)”
+  f:\software\vc\include\istream(316): note: 或  “std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(unsigned int &)”
+  f:\software\vc\include\istream(290): note: 或  “std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(int &)”
+  f:\software\vc\include\istream(271): note: 或  “std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(unsigned short &)”
+  f:\software\vc\include\istream(236): note: 或  “std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(short &)”
+  f:\software\vc\include\istream(217): note: 或  “std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(bool &)”
+  f:\software\vc\include\istream(210): note: 或  “std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(std::ios_base &(__cdecl *)(std::ios_base &))”
+  f:\software\vc\include\istream(203): note: 或  “std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(std::basic_ios<char,std::char_traits<char>> &(__cdecl *)(std::basic_ios<char,std::char_traits<char>> &))”
+  f:\software\vc\include\istream(197): note: 或  “std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(std::basic_istream<char,std::char_traits<char>> &(__cdecl *)(std::basic_istream<char,std::char_traits<char>> &))”
+  f:\software\vc\include\istream(1104): note: 或  “std::basic_istream<char,std::char_traits<char>> &std::operator >><char,std::char_traits<char>,std::string>(std::basic_istream<char,std::char_traits<char>> &&,_Ty &)”
+          with
+          [
+              _Ty=std::string
+          ]
+  f:\software\vc\include\istream(1094): note: 或  “std::basic_istream<char,std::char_traits<char>> &std::operator >><std::char_traits<char>>(std::basic_istream<char,std::char_traits<char>> &,unsigned char &)”
+  f:\software\vc\include\istream(1087): note: 或  “std::basic_istream<char,std::char_traits<char>> &std::operator >><std::char_traits<char>>(std::basic_istream<char,std::char_traits<char>> &,unsigned char *)”
+  f:\software\vc\include\istream(1080): note: 或  “std::basic_istream<char,std::char_traits<char>> &std::operator >><std::char_traits<char>>(std::basic_istream<char,std::char_traits<char>> &,signed char &)”
+  f:\software\vc\include\istream(1073): note: 或  “std::basic_istream<char,std::char_traits<char>> &std::operator >><std::char_traits<char>>(std::basic_istream<char,std::char_traits<char>> &,signed char *)”
+  e:\files\新建文件夹\c\vs2015\consoleapplication1\consoleapplication1\源.cpp(180): note: 尝试匹配参数列表“(std::ifstream, std::string)”时
+e:\files\新建文件夹\c\vs2015\consoleapplication1\consoleapplication1\源.cpp(182): error C2679: 二进制“>>”: 没有找到接受“std::string”类型的右操作数的运算符(或没有可接受的转换)
+  f:\software\vc\include\istream(482): note: 可能是“std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(std::basic_streambuf<char,std::char_traits<char>> *)”
+  f:\software\vc\include\istream(463): note: 或  “std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(void *&)”
+  f:\software\vc\include\istream(445): note: 或  “std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(long double &)”
+  f:\software\vc\include\istream(427): note: 或  “std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(double &)”
+  f:\software\vc\include\istream(408): note: 或  “std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(float &)”
+  f:\software\vc\include\istream(390): note: 或  “std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(unsigned __int64 &)”
+  f:\software\vc\include\istream(371): note: 或  “std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(__int64 &)”
+  f:\software\vc\include\istream(352): note: 或  “std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(unsigned long &)”
+  f:\software\vc\include\istream(334): note: 或  “std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(long &)”
+  f:\software\vc\include\istream(316): note: 或  “std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(unsigned int &)”
+  f:\software\vc\include\istream(290): note: 或  “std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(int &)”
+  f:\software\vc\include\istream(271): note: 或  “std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(unsigned short &)”
+  f:\software\vc\include\istream(236): note: 或  “std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(short &)”
+  f:\software\vc\include\istream(217): note: 或  “std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(bool &)”
+  f:\software\vc\include\istream(210): note: 或  “std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(std::ios_base &(__cdecl *)(std::ios_base &))”
+  f:\software\vc\include\istream(203): note: 或  “std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(std::basic_ios<char,std::char_traits<char>> &(__cdecl *)(std::basic_ios<char,std::char_traits<char>> &))”
+  f:\software\vc\include\istream(197): note: 或  “std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(std::basic_istream<char,std::char_traits<char>> &(__cdecl *)(std::basic_istream<char,std::char_traits<char>> &))”
+  f:\software\vc\include\istream(1104): note: 或  “std::basic_istream<char,std::char_traits<char>> &std::operator >><char,std::char_traits<char>,std::string>(std::basic_istream<char,std::char_traits<char>> &&,_Ty &)”
+          with
+          [
+              _Ty=std::string
+          ]
+  f:\software\vc\include\istream(1094): note: 或  “std::basic_istream<char,std::char_traits<char>> &std::operator >><std::char_traits<char>>(std::basic_istream<char,std::char_traits<char>> &,unsigned char &)”
+  f:\software\vc\include\istream(1087): note: 或  “std::basic_istream<char,std::char_traits<char>> &std::operator >><std::char_traits<char>>(std::basic_istream<char,std::char_traits<char>> &,unsigned char *)”
+  f:\software\vc\include\istream(1080): note: 或  “std::basic_istream<char,std::char_traits<char>> &std::operator >><std::char_traits<char>>(std::basic_istream<char,std::char_traits<char>> &,signed char &)”
+  f:\software\vc\include\istream(1073): note: 或  “std::basic_istream<char,std::char_traits<char>> &std::operator >><std::char_traits<char>>(std::basic_istream<char,std::char_traits<char>> &,signed char *)”
+  e:\files\新建文件夹\c\vs2015\consoleapplication1\consoleapplication1\源.cpp(182): note: 尝试匹配参数列表“(std::ifstream, std::string)”时
